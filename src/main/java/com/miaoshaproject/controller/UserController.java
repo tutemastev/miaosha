@@ -31,7 +31,7 @@ public class UserController extends BaseController{
         //将核心领域模型对象转换为可提供UI使用的viewobject
         UserVO userVO = converFromModel(userModel);
         //返回通用对象
-        System.out.println("456456");
+        System.out.println("liwenqiao");
         return CommonReturnType.create(userVO);
     }
 
